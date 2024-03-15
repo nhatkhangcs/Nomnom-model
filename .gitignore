@@ -1,6 +1,6 @@
 food-suggestion-app
 original_data
 khangEnv
-data
+data/
 scripts/model/embeddings.pkl
 ingr_map.pkl

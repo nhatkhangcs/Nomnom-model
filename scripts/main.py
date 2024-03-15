@@ -8,7 +8,7 @@ MODEL_PATH = 'scripts/model/embeddings.pkl'
 
 # data reader
 data_reader = DataReader(DATA_PATH)
-data = data_reader.load_data_for_embeddings('name')
+data = data_reader.load_data_for_embeddings('name') #only embedding the name of food
 
 # create model
 
@@ -39,4 +39,15 @@ input_sentence = 'fried chicken'
 # retrieve similar embeddings
 similar_embeddings = model.similar_embeddings(input_sentence)
 
+itemList = data_reader.dataframe_creator()
+
 print(similar_embeddings)
+
+print(similar_embeddings[0][1])
+
+# retrieve information for similar_embeddings[0] (top 1)
+# each embedding is a tuple (similarity_score, food_name), need to retrieve with same food name
+for i in range(len(itemList)):
+    if similar_embeddings[0][1] == itemList.iloc[i][0]:
+        print(itemList.iloc[i])
+        break

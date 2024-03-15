@@ -27,7 +27,7 @@ class EmbeddingModel:
         '''
             data: list of strings
         '''
-        print('[+] Reading data...')
+        print('[+] Loading data into model...')
         self.data = data
 
     def similar_embeddings(self, input):
