@@ -1,19 +1,19 @@
 # Project tree
 . NomNom-model
- * [data](./)
- * [scripts](./dir2)
-   * [apis](./dir2/file21.ext)
-   * [data](./dir2/file22.ext)
-   * [model](./dir2/file23.ext)
-   * [constant.py](./dir2/file23.ext)
-   * [data_reader.ipynb](./dir2/file23.ext)
-   * [food-recommendation-systems.ipynb](./dir2/file23.ext)
-   * [main.py](./dir2/file23.ext)
-   * [offical_preprocess.ipynb](./dir2/file23.ext)
-   * [subtag.txt](./dir2/file23.ext)
- * [.gitignore](./dir1)
- * [README.md](./file_in_root.ext)
- * [requirements.txt](./README.md)
+ * [data](./data)
+ * [scripts](./scripts)
+   * [apis](./scripts/apis)
+   * [data](./scripts/data)
+   * [model](./scripts/model)
+   * [constant.py](./scripts/constant.py)
+   * [data_reader.ipynb](./scripts/data_reader.ipynb)
+   * [food-recommendation-systems.ipynb](./scripts/food-recommendation-systems.ipynb)
+   * [main.py](./scripts/main.py)
+   * [offical_preprocess.ipynb](./scripts/offical_preprocess.ipynb)
+   * [subtag.txt](./scripts/subtag.txt)
+ * [.gitignore](./.gitignore)
+ * [README.md](./README.md)
+ * [requirements.txt](./requirements.txt)
 
 # Installation
 ```
