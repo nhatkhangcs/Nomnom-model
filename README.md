@@ -14,6 +14,8 @@
  * [.gitignore](./.gitignore)
  * [README.md](./README.md)
  * [requirements.txt](./requirements.txt) -->
+# Instant deploy
+Run all in `which_to_nomnom.ipynb`
 
 # Installation
 ~1.5GB from transformer
