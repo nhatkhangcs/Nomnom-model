@@ -17,6 +17,8 @@
 # Instant deploy
 Run all in `which_to_nomnom.ipynb`
 
+Google Drive [Working Folder](https://drive.google.com/drive/folders/1C-o63PQbqzpbuiFEs7HsN2qj0vNp-C9C)
+
 # Installation
 ~1.5GB from transformer
 ```
